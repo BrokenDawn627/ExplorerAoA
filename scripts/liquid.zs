@@ -1,0 +1,1 @@
+recipes.remove(<liquidenchanting:liquid_enchanting>);
