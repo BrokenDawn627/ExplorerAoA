@@ -1,3 +1,17 @@
+val jmzb = <variedcommodities:bronze_broadsword>.withLore(["§9§kd元气水波弹d","§7By:Broken_Dawn"]);
+
+mods.SetEffect.newSet()
+.withMainhand(jmzb)
+.addEffect(<potion:minecraft:jump_boost>.makePotionEffect(100, 2,true,false))
+.addParticle("dripWater", 0, 3, 0, 1, 4, 1, 0, -1, 0, 0, -1, 0, -0.2, 0.2, 3)
+.register();
+
+mods.SetEffect.newSet()
+.withOffhand(jmzb)
+.addEffect(<potion:minecraft:jump_boost>.makePotionEffect(100, 2,true,false))
+.addParticle("dripWater", 0, 3, 0, 1, 4, 1, 0, -1, 0, 0, -1, 0, -0.2, 0.2, 3)
+.register();
+
 val xjjs = <variedcommodities:diamond_broadsword>.withLore(["§b手持时提供强效治疗"]);
 
 mods.SetEffect.newSet()
@@ -49,4 +63,3 @@ mods.SetEffect.newSet()
 .addAttackerEffect(<potion:minecraft:levitation>.makePotionEffect(100, 3, true, false))
 .addParticle("dripWater", 0, 0, 0, 1, 1, 1, -1, -1, -1, 1, 2, 1, -0.2, 0.2, 10)
 .register();
-

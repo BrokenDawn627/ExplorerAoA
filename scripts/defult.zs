@@ -32,7 +32,8 @@ recipes.addShapeless(<thermalfoundation:coin:72>, [<thermalfoundation:material:1
 <mirageorb:mirageorb>.displayName = "§b幻影宝珠";
 recipes.remove(<cyclicmagic:emerald_sword>);
 recipes.remove(<cyclicmagic:block_workbench>);
-
+<variedcommodities:bronze_broadsword>.displayName = "§b静谧之波";
+<variedcommodities:bronze_broadsword>.maxDamage=2000;
 
 
 mods.initialinventory.InvHandler.addStartingItem(<minecraft:white_shulker_box>.withTag({BlockEntityTag: {Items: [{Slot: 0 as byte, id: "tconstruct:book", Count: 1 as short, Damage: 0 as short}, {Slot: 1 as byte, id: "conarm:book", Count: 1 as short, tag: {mantle: {book: {page: "materials.page0"}}}, Damage: 0 as short}, {Slot: 2 as byte, id: "yoyos:book", Count: 1 as short, Damage: 0 as short}, {Slot: 3 as byte, id: "questbook:itemquestbook", Count: 1 as short, Damage: 0 as short}, {Slot: 4 as byte, id: "improvableskills:skills_book", Count: 1 as short, Damage: 0 as short}, {Slot: 5 as byte, id: "silentgems:guide_book", Count: 1 as short, Damage: 0 as short}, {Slot: 6 as byte, id: "cyclicmagic:book_ender", Count: 1 as short, tag: {location_back: ""}, Damage: 0 as short}, {Slot: 7 as byte, id: "minecraft:cooked_beef", Count: 10 as short, Damage: 0 as short}, {Slot: 8 as byte, id: "minecraft:golden_apple", Count: 3 as short, Damage: 0 as short}]}, display: {Name: "§d探索者-萌新大礼包"}}));
